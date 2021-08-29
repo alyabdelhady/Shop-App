@@ -1,0 +1,13 @@
+.head-title {
+  background-color: black;
+  position: absolute;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.head-title h1 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}

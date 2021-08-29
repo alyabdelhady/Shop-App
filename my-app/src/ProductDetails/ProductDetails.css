@@ -1,0 +1,128 @@
+.parent {
+  height: 90vh;
+  background-color: white;
+}
+.parent .col-lg-5 {
+  height: 70vh;
+  margin-top: 60px;
+}
+
+.parent .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.parent img {
+  width: 60%;
+  height: 80%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.parent img:hover {
+  transform: scale(1.1);
+}
+.parent .col-lg-7 {
+  margin-top: 40px;
+}
+.parent h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.parent h2 {
+  font-size: 18px;
+  padding: 10px 0;
+  color: gray;
+}
+.parent h2 span {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.parent p {
+  color: gray;
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+}
+
+.parent p span {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.parent h6 span {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.parent h6 {
+  padding: 10px;
+}
+
+.parent .active-price {
+  font-size: 16px;
+  font-weight: unset;
+  padding: 0 10px;
+  border: 2px solid rgb(226, 218, 218);
+  border-radius: 5px;
+
+  background-color: rgb(226, 218, 218);
+}
+.parent button {
+  padding: 10px 80px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.parent .button {
+  padding: 10px;
+}
+
+/* .color h5 {
+  font-size: 20px;
+  font-weight: bold;
+} */
+
+/* .color .span1 {
+  margin: 10px;
+  padding: 0 10px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  background-color: gray;
+  cursor: pointer;
+}
+.color .span2 {
+  margin: 10px;
+  padding: 0 10px;
+  border: 2px solid brown;
+  border-radius: 50%;
+  background-color: brown;
+  cursor: pointer;
+}
+.color .span3 {
+  margin: 10px;
+  padding: 0 10px;
+  border: 2px solid rgb(0, 128, 90);
+  border-radius: 50%;
+  background-color: rgb(0, 128, 90);
+  cursor: pointer;
+}
+.color .span1:hover,
+.color .span2:hover,
+.color .span3:hover {
+  border: 2px solid black;
+}
+
+.color .size-span {
+  margin: 10px;
+  padding: 0 15px;
+  border: 2px solid rgb(226, 218, 218);
+  background-color: rgb(226, 218, 218);
+  font-size: 14px;
+  cursor: pointer;
+}
+.color .size-span:hover {
+  
+  border: 2px solid gray;
+} */
